@@ -1,6 +1,13 @@
 {
   "name": "bs-either",
   "version": "0.1.0",
+  "description": "An `either` type for bucklescript, representing a coproduct (sum)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-either.git"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-either",
+  "bugs": "https://github.com/Risto-Stevcev/bs-either/issues",
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
@@ -9,7 +16,8 @@
     "test:watch": "./node_modules/.bin/mocha -w lib/js/test/Test*.js"
   },
   "keywords": [
-    "BuckleScript"
+    "BuckleScript",
+    "reason"
   ],
   "author": "Risto Stevcev",
   "license": "BSD-3-Clause",
