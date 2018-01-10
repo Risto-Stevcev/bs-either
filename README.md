@@ -1,23 +1,8 @@
-# bs-either
+# DEPRECATED
 
-An `either` type for bucklescript, representing a coproduct (sum)
+This package is deprecated and no longer being maintained
 
-## Installation
+The Ocaml equivalent of the `Either` type is called `Result`, and its 
+implementation is located in the [bs-abstract][1] repository
 
-Install the project:
-
-`npm install bs-either --save`
-
-And add the dependency to your bs-dependencies in `bsconfig.json`:
-
-```json
-"bs-dependencies": [
-  "bs-either"
-]
-```
-
-The project will be available under the `BsEither` namespace
-
-## License
-
-Licensed under the BSD-3-Clause license. See `LICENSE`
+[1]: http://www.github.com/Risto-Stevcev/bs-abstract
