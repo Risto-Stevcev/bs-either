@@ -2,6 +2,7 @@ open BsAbstract;
 open BsAbstract.Interface;
 let (flip, const) = BsAbstract.Function.(flip, const);
 
+[@ocaml.deprecated "Use [Js.Result.t] type instead"]
 type either('l, 'r) = Left('l) | Right('r);
 
 let either: ('a => 'c, 'b => 'c, either('a, 'b)) => 'c = (f, g, a) => switch (f, g, a) {
